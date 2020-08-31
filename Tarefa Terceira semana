@@ -1,0 +1,14 @@
+#tarefa 01 semana 3
+
+nome = str(input("Informe o seu nome? \n"))
+sexo_masculino_feminino = str(input("Informe o seu sexo? \n")) 
+
+if sexo_masculino_feminino in ('Masculino1'):
+    sexo_masculino_feminino = 1
+    if sexo_masculino_feminino == 1:
+        print(f"Ilmo Sr. {nome}")
+
+elif sexo_masculino_feminino in('Feminino2'):
+    sexo_masculino_feminino = 2    
+    if sexo_masculino_feminino == 2:
+        print(f"Ilma Sra. {nome}")
